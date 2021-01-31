@@ -1,3 +1,4 @@
+package homeWork02;
 public class SeasonApp {
     public static void main (String[] args) {
 

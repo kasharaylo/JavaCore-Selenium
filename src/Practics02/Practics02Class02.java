@@ -1,3 +1,6 @@
+package Practics02;
+import homeWork02.Season;
+
 import java.util.Locale;
 
 public class Practics02Class02 {

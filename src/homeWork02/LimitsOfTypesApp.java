@@ -1,3 +1,4 @@
+package homeWork02;
 public class LimitsOfTypesApp {
     public static void main (String[] arg) {
 

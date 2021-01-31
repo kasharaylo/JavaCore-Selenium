@@ -1,3 +1,4 @@
+package Practics02;
 public class Practics02Class {
     public static void main (String[] arg) {
 
