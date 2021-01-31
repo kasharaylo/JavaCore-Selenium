@@ -1,7 +1,5 @@
-package Practics02;
+package practics02;
 import homeWork02.Season;
-
-import java.util.Locale;
 
 public class Practics02Class02 {
     public static void main (String[] arg) {
@@ -38,7 +36,7 @@ public class Practics02Class02 {
         System.out.println("Do you have a pet? (yes/no)");
         String enter = "yes";
 
-        switch (enter.toLowerCase(Locale.ROOT)) {
+        switch (enter.toLowerCase()) {
             case "yes":
                 System.out.println("Okay!"); // output
                 break;
@@ -52,7 +50,7 @@ public class Practics02Class02 {
         System.out.println("Do you have a cat? (yes/no)");
         String enter2 = "no";
 
-        switch (enter2.toLowerCase(Locale.ROOT)) {
+        switch (enter2.toLowerCase()) {
             case "yes":
                 System.out.println("Okay!");
                 break;
@@ -66,7 +64,7 @@ public class Practics02Class02 {
         System.out.println("Do you have any animal? (yes/no)");
         String enter3 = "error";
 
-        switch (enter3.toLowerCase(Locale.ROOT)) {
+        switch (enter3.toLowerCase()) {
             case "yes":
                 System.out.println("Okay!");
                 break;
