@@ -40,7 +40,7 @@ public class Student {
     }
 
     public double setRating() {
-        return 0;
+        return rating;
     }
 
     //Average rating of all students

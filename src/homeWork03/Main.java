@@ -26,12 +26,12 @@ public class Main {
         boolean bestStudent2 = bobby.betterStudent(5.0);
         boolean bestStudent3 = jenifer.betterStudent(4.0);
 
-        System.out.println(bestStudent);
-        System.out.println(bestStudent2);
-        System.out.println(bestStudent3);
+        System.out.println("This student better? " + bestStudent);
+        System.out.println("This student better? " + bestStudent2);
+        System.out.println("This student better? " + bestStudent3);
 
         //Average rating of all students
-        System.out.println("Average rating is: " + (kevin.setRating() + bobby.setRating() + jenifer.setRating() / 3));
+        System.out.println("Average rating is: " + ((kevin.setRating() + bobby.setRating() + jenifer.setRating()) / 3));
 
         System.out.println(Student.counter);
         //Change the rating of any student
