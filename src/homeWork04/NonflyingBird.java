@@ -1,7 +1,6 @@
 package homeWork04;
 
-public class NonflyingBird extends Bird {
-    public static void main (String[] args) {
-
-    }
+public abstract class NonflyingBird implements Bird {
+        abstract void swimming();
+        abstract void diving();
 }
