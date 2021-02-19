@@ -23,28 +23,28 @@ public class ArrayListExample {
         }
 
         //Scanner of file input.txt
-        ArrayList<String> list = new ArrayList<String>();
+        ArrayList<String> list1 = new ArrayList<String>();
         try (Scanner result1 = new Scanner(new File("src/homeWork05/input.txt"))) {
             while (result1.hasNextLine()) {
-                list.add(result1.nextLine());
+                list1.add(result1.nextLine());
             }
         }
         System.out.println("\n______________RESULT OF ARRAY with Scanner____________");
-        System.out.println(list);
+        System.out.println(list1);
 
         //BufferedReader of file input.txt
-        ArrayList<String> result2 = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("src/homeWork05/input.txt"))) {
-            while (br.ready()) {
-                result2.add(br.readLine());
+        ArrayList<String> list2 = new ArrayList<>();
+        try (BufferedReader result2 = new BufferedReader(new FileReader("src/homeWork05/input.txt"))) {
+            while (result2.ready()) {
+                list2.add(result2.readLine());
             }
         }
         System.out.println("\n______________RESULT OF ARRAY with BufReader____________");
-        System.out.println(result2);
+        System.out.println(list2);
 
         //Array into output.txt
         FileWriter output = new FileWriter("src/homeWork05/output.txt");
-        for (String str: list) {
+        for (String str: list1) {
             output.write(str + System.lineSeparator());
         }
         output.close();
