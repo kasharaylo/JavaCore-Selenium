@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SoftServeAutomation.iml" filepath="$PROJECT_DIR$/SoftServeAutomation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaCore + Selenium.iml" filepath="$PROJECT_DIR$/JavaCore + Selenium.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package homeWork.homeWork05;
+package javaCoreHomeWork.homeWork05;
 
 import java.io.*;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package homeWork.homeWork04;
+package javaCoreHomeWork.homeWork04;
 
 public abstract class FlyingBird implements Bird {
     abstract void lightweight();

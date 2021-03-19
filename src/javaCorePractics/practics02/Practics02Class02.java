@@ -1,5 +1,5 @@
 package javaCorePractics.practics02;
-import homeWork.homeWork02.Season;
+import javaCoreHomeWork.homeWork02.Season;
 
 public class Practics02Class02 {
     public static void main (String[] arg) {

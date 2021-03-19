@@ -1,4 +1,4 @@
-package homeWork.homeWork03;
+package javaCoreHomeWork.homeWork03;
 
 public class Student {
     //private fields

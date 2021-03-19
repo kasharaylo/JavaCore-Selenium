@@ -1,4 +1,4 @@
-package homeWork.homeWork02;
+package javaCoreHomeWork.homeWork02;
 public class LimitsOfTypesApp {
     public static void main (String[] arg) {
 

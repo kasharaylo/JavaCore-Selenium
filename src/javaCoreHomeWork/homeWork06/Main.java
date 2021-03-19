@@ -1,6 +1,4 @@
-package homeWork.homeWork06;
-
-import java.time.temporal.Temporal;
+package javaCoreHomeWork.homeWork06;
 
 public class Main {
     public static void main(String args[]) {

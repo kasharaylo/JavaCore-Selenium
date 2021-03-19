@@ -1,6 +1,4 @@
-package homeWork.homeWork06;
-
-import javaCorePractics.practics15.User;
+package javaCoreHomeWork.homeWork06;
 
 public class Solider {
     private String name;

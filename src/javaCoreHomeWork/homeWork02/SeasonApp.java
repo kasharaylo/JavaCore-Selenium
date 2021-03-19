@@ -1,4 +1,4 @@
-package homeWork.homeWork02;
+package javaCoreHomeWork.homeWork02;
 public class SeasonApp {
     public static void main (String[] args) {
 

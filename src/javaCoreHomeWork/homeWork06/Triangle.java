@@ -1,4 +1,4 @@
-package homeWork.homeWork06;
+package javaCoreHomeWork.homeWork06;
 
 public class Triangle {
     int a, b, c;
