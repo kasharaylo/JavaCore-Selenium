@@ -134,3 +134,9 @@ hs_err_pid*
 .DS_Store
 .classpath
 .project
+selenium-java-3.141.59/CHANGELOG
+selenium-java-3.141.59/LICENSE
+selenium-java-3.141.59/NOTICE
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
