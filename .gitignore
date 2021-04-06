@@ -141,3 +141,5 @@ selenium-java-3.141.59/NOTICE
 .idea/jarRepositories.xml
 .idea/misc.xml
 .idea/
+chromedriver
+.idea/.name
