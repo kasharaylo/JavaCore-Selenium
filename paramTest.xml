@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Param Suite" parallel="false">
+    <test name="My param test">
+        <parameter name="param1" value="2"></parameter>
+        <parameter name="param2" value="Username"></parameter>
+        <classes>
+            <class name="practics03.ParamFromXml"/>
+        </classes>
+    </test>
+</suite>

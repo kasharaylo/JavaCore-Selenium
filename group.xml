@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="My current Suite">
+    <test name="Practice Grouping">
+        <groups>
+            <run>
+                <include name="Scooter" />
+                <include name="Car" />
+            </run>
+        </groups>
+        <classes>
+            <class name="practics03.Group" />
+        </classes>
+    </test>
+</suite>
