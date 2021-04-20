@@ -4,14 +4,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import practics04.PageObject.utils.FileUtils;
 import practics04.PageObject.utils.WebDriverFactory;
 
-import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
@@ -23,14 +20,13 @@ public class BaseTest {
     public String baseUrl;
 
     @BeforeClass
-    public void setup() throws MalformedURLException {
+    public void setup() {
         //Create a Chrome driver. All test classes use this.
 
         ChromeOptions co = new ChromeOptions();
-        driver = new ChromeDriver();
-        //driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub/"), co);
+        //driver = new ChromeDriver();
         //driver = WebDriverFactory.GetDriver("Chrome");
-        //driver = WebDriverFactory.GetDriver(FileUtils.getConfigProperty("browser"));
+        driver = WebDriverFactory.GetDriver(FileUtils.getConfigProperty("browser"));
 
         //Set baseURL
         //baseUrl = "https://www.olx.ua/";
