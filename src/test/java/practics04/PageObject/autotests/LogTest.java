@@ -19,8 +19,6 @@ public class LogTest extends BaseTest {
         Thread.sleep(3000);
         page.accountBar().clickRussianLink();
         Thread.sleep(3000);
-        page.accountBar().clickUkrainianLink();
-        Thread.sleep(3000);
 
         page.accountBar().clickMyAccountButton();
         Thread.sleep(3000);

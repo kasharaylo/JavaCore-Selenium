@@ -1,6 +1,7 @@
 package practics04.PageObject;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -26,10 +27,10 @@ public class BaseTest {
         //Create a Chrome driver. All test classes use this.
 
         ChromeOptions co = new ChromeOptions();
-        //driver = new ChromeDriver();
+        driver = new ChromeDriver();
         //driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub/"), co);
         //driver = WebDriverFactory.GetDriver("Chrome");
-        driver = WebDriverFactory.GetDriver(FileUtils.getConfigProperty("browser"));
+        //driver = WebDriverFactory.GetDriver(FileUtils.getConfigProperty("browser"));
 
         //Set baseURL
         //baseUrl = "https://www.olx.ua/";

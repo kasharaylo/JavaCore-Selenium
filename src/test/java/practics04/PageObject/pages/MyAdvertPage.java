@@ -15,11 +15,11 @@ public class MyAdvertPage {
     }
 
     //*********Page Selector*********
-    public By messageLink = By.cssSelector("#se_accountAnswers span.link.fbold");
+    public By messageLink = By.xpath("//*[@id=\"loginForm\"]/div/p");
 
     //*********Page Methods*********
     public void waitForMessageLink (){
-        WebDriverWait localWait = new WebDriverWait(page.driver, 20);
+        WebDriverWait localWait = new WebDriverWait(page.driver, 10);
         localWait.until(ExpectedConditions.visibilityOfElementLocated(messageLink));
     }
 

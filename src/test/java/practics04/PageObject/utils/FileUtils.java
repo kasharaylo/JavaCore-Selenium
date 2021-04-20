@@ -20,7 +20,4 @@ public class FileUtils {
         }
         throw new IllegalArgumentException("Please specify correct property to get from config.property.");
     }
-
-    public static void copyFile(File src, File file) {
-    }
 }
