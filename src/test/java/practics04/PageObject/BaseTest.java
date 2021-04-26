@@ -4,10 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import practics04.PageObject.utils.FileUtils;
 import practics04.PageObject.utils.WebDriverFactory;
+import practics05.Screenshot;
 
 import java.util.concurrent.TimeUnit;
 
@@ -37,6 +40,13 @@ public class BaseTest {
         driver.manage().window().maximize();
 
         page = new Page(driver);
+    }
+
+    @AfterMethod
+    public void method(ITestResult result) {
+        if (!result.isSuccess()) {
+            Screenshot.take(driver);
+        }
     }
 
     @AfterClass
