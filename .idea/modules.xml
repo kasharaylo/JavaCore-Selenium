@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaCore + Selenium.iml" filepath="$PROJECT_DIR$/JavaCore + Selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaCoreSelenium.iml" filepath="$PROJECT_DIR$/JavaCoreSelenium.iml" />
     </modules>
   </component>
 </project>

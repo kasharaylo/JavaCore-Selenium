@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression suite" time-out="5000" verbose="1" >
+  <parameter name="username" value="user"/>
+  <parameter name="password" value="pass1234"/>
+  <test name="Admin suite" >
+   <packages>
+      <package name="practics06" />
+   </packages> 
+ </test>
+</suite>

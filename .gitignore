@@ -143,3 +143,4 @@ selenium-java-3.141.59/NOTICE
 .idea/
 chromedriver
 .idea/.name
+target/
