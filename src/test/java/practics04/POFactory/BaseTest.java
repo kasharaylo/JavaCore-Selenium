@@ -29,8 +29,8 @@ public class BaseTest {
         //Create a Chrome driver. All test classes use this.
         ChromeOptions co = new ChromeOptions();
         //driver = new ChromeDriver();
-        driver = WebDriverFactory.GetDriver(FileUtils.getConfigProperty("browser"));
-        //driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub/"), co);
+        //driver = WebDriverFactory.GetDriver(FileUtils.getConfigProperty("browser"));
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub/"), co);
         baseURL = FileUtils.getConfigProperty("baseURL");
         driver.manage().timeouts().implicitlyWait(SECONDSTOWAIT, TimeUnit.SECONDS);
 
